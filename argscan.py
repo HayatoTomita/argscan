@@ -44,10 +44,7 @@ def extract_argparse_args(source_code: str) -> Dict[str, Any]:
                         arg_name = arg.value.strip('-')
                 
                 if arg_name:
-                    args_info[arg_name] = {
-                        'type': arg_type,
-                        'default': get_default_value(arg_type)
-                    }
+                    args_info[arg_name] = get_default_value(arg_type)
     
     return args_info
 
