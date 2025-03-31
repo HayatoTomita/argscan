@@ -31,3 +31,7 @@ htmlcov/
 # 出力ファイル
 *.yaml
 !tests/*.yaml  # テスト用のYAMLファイルは除外しない
+
+# 以下のファイルは追跡対象に含める
+!.python-version
+!uv.lock
