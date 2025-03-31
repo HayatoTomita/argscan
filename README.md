@@ -2,6 +2,8 @@
 
 argparseを使用したPythonスクリプトから引数情報を抽出し、YAMLファイルを生成するツールです。
 
+このプロジェクトは [Cursor](https://cursor.sh/) を使用して開発されました。
+
 ## 機能
 
 - argparseのコードを解析し、引数名と型を抽出
